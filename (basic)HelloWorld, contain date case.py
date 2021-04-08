@@ -3,7 +3,7 @@ print("Hello world")
 # Case 1:
 """
 date = '---January 1 2021---'   # A string variables that contain a date
-print("Today is "+date)     # Display the data on date variable
+print("Today is " + date)     # Display the data on date variable, also using string concatenate
 print("What is special about " + date+"?")   # There is concatenate string, you can do this if only the variable contain string
 special = input("-> ")  # This is an input function, which technically works same with 'scanf' on c/cpp
 print(special)
@@ -11,13 +11,13 @@ print(special)
 print("\n")
 date = '---January 2 2021---'   # Date has been reset and change to a new string
 print("Today is " + date) # Display the data on date variable
-print("What is special about " + date+"?")   # There is concatenate string, you can do this if only the variable contain string
+print("What is special about " + date+"?")   # There is concatenate string, you can do this if only the two variable contain string
 special = input("-> ")  # This is an input function, which technically works same with 'scanf' on c/cpp
 print(special)
 """
+
 # Case 2:
 # Count the day!
-
 month = input("This month is: ")
 day_date = int(input("Today date is: "))
 year = int(input("This year is: "))
