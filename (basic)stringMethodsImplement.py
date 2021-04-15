@@ -33,9 +33,9 @@
 """
 
 # Case 1:
-"""
-# for now, we don't use a function to make this code efficient
 
+# for now, we don't use a function to make this code efficient
+"""
 username = input("Username: ")
 msg = 'Username only accept 10 characters.'
 password = input("Password: ")
@@ -46,9 +46,9 @@ if len(username) > 10:
     username = input("Username: ")
     password = input("Password: ")
     if len(username) <= 10:
-        print(f"Welcome {username.lower()} to our social media! Make new friend(s), make happiness^-^")
+        print(f"Nice name {username.title()}, welcome to our social media! Make new friend(s), make happiness^-^")
 else:
-    print(f"Welcome {username.lower()} to our social media! Make new friend(s), make happiness^-^")
+    print(f"Nice name {username.title()}, welcome to our social media! Make new friend(s), make happiness^-^")
 """
 
 # Case 2:
